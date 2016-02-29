@@ -1,4 +1,4 @@
-Objective-C:
+
 - (void)callOCRSpace {
     // Create URL request
     NSURL *url = [NSURL URLWithString:@"https://api.ocr.space/Parse/Image"];
