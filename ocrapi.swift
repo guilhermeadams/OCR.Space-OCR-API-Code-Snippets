@@ -1,4 +1,4 @@
-Swift:
+
 func callOCRSpace() {
 		// Create URL request
 		var url: NSURL = NSURL(string: "https://api.ocr.space/Parse/Image")
