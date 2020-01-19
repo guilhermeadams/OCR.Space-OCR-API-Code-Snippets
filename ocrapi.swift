@@ -23,7 +23,6 @@ func callOCRSpace() {
         // Start data session
         var task: URLSessionDataTask? = nil
         if let request = request {
-            //task = session.dataTask(with: request, completionHandler: { (data, response, error) in
             task = session.dataTask(with: request, completionHandler: { (data, response, error) in
                 var result: [AnyHashable : Any]? = nil
                 do {
